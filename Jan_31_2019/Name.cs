@@ -4,8 +4,8 @@ namespace People
 {
     public class Name
     {
-        protected string First { get; set; }
-        protected string Last { get; set; }
+        protected string First;
+        protected string Last;
 
         public override string ToString()
         {
